@@ -78,7 +78,7 @@ body {
   flex-direction: column;
 }
 
-.header{
+.header {
   flex: 0.0371;
 }
 
@@ -92,7 +92,7 @@ body {
   flex-direction: column;
 }
 
-.main-content-one{
+.main-content-one {
   flex: 0.265306;
 }
 
@@ -114,6 +114,11 @@ body {
   align-items: center;
 }
 
+.header-menu {
+  display: flex;
+  gap: 10px;
+}
+
 .main-content-one {
   display: flex;
 }
@@ -121,16 +126,58 @@ body {
 .main-content-one-container-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex: 0.5;
+  margin: 5%;
+  gap: 10px;
 }
 
 .main-content-one-container-right {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex: 0.5;
+}
+
+.main-content-one-container-right-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--solitude);
+  height: 200px;
+  width: 400px;
+}
+
+.main-content-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content-three-quote,
+.main-content-three-citation {
+  width: 50%;
+}
+
+.main-content-three-citation {
+  text-align: end;
+}
+
+.main-content-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-four-card {
+  background-color: var(--dodger-blue);
+  height: 50%;
+  width: 50%;
+  border-radius: 8px;
+  color: var(--saltpan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {

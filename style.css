@@ -180,7 +180,7 @@ body {
   gap: 30px;
 }
 
-.main-content-four-card-right-button {
+.main-content-four-card-right-button, .main-content-one-container-left-button {
   border: solid;
   font-weight: bold;
   border-color: var(--saltpan);
@@ -212,9 +212,6 @@ body {
   border: 2.5px solid var(--dodger-blue);
   align-items: flex-end;
   border-radius: 8px;
-}
-
-.main-content-two-container-card-text {
 }
 
 .footer {

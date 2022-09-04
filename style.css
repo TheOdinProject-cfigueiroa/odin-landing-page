@@ -5,6 +5,10 @@
   --dodger-blue: #3882f6;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 /* colors and font styles */
 
 /* background header, hero, footer: midnight
@@ -74,26 +78,64 @@ body {
   flex-direction: column;
 }
 
-.header,
+.header{
+  flex: 0.0371;
+}
+
 .footer {
   flex: 0.0556;
 }
 
 .main {
-  flex: 0.8888;
+  flex: 0.9073;
   display: flex;
   flex-direction: column;
 }
 
-.main-content-one,
-.main-content-three {
-  flex: 0.25;
+.main-content-one{
+  flex: 0.265306;
 }
 
 .main-content-two {
-  flex: 0.2917;
+  flex: 0.285714;
+}
+
+.main-content-three {
+  flex: 0.244898;
 }
 
 .main-content-four {
-  flex: 0.2083;
+  flex: 0.204082;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-content-one {
+  display: flex;
+}
+
+.main-content-one-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+}
+
+.main-content-one-container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--saltpan);
 }

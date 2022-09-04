@@ -17,3 +17,53 @@ information header text: 36px extra-bold midnight */
 
 /* quote section background color: solitude
 quote text: 36px light italic midnight */
+
+.header,
+.main-content-one,
+.footer {
+  background-color: var(--midnight);
+}
+
+.main-content-one-container-left-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--saltpan);
+}
+
+.main-content-one-container-left-text,
+.header-menu-item {
+  font-size: 18px;
+  color: var(--solitude);
+  text-decoration: none;
+}
+
+.header-text {
+  font-size: 24px;
+  color: var(--saltpan);
+}
+
+.main-content-two-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: var(--midnight);
+}
+
+.main-content-three {
+  background-color: var(--solitude);
+}
+
+.main-content-three-quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: var(--midnight);
+}
+
+main-content-four-card {
+  background-color: var(--dodger-blue);
+}
+
+button {
+  background-color: var(--dodger-blue);
+  color: var(--saltpan);
+}

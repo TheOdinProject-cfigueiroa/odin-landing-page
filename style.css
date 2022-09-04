@@ -175,9 +175,17 @@ body {
   border-radius: 8px;
   color: var(--saltpan);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+}
+
+.main-content-four-card-right-button {
+  border: solid;
+  font-weight: bold;
+  border-color: var(--saltpan);
+  border-radius: 6px;
+  padding: 4px 10px;
 }
 
 .footer {

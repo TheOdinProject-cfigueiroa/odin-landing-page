@@ -4,3 +4,16 @@
   --solitude: #e5e7eb;
   --dodger-blue: #3882f6;
 }
+
+/* colors and font styles */
+
+/* background header, hero, footer: midnight
+hero title: 48px extra-bold saltpan
+hero secondary, header link: 18px solitude
+header logo text: 24px saltpan */
+
+/* button color, cta background color: dodger-blue
+information header text: 36px extra-bold midnight */
+
+/* quote section background color: solitude
+quote text: 36px light italic midnight */

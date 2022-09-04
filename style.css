@@ -188,6 +188,35 @@ body {
   padding: 4px 10px;
 }
 
+.main-content-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-two-title {
+  margin-bottom: 20px;
+}
+
+.main-content-two-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.main-content-two-container-card {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 2.5px solid var(--dodger-blue);
+  align-items: flex-end;
+  border-radius: 8px;
+}
+
+.main-content-two-container-card-text {
+}
+
 .footer {
   display: flex;
   justify-content: center;

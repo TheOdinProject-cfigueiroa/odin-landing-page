@@ -67,3 +67,33 @@ button {
   background-color: var(--dodger-blue);
   color: var(--saltpan);
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  flex: 0.0556;
+}
+
+.main {
+  flex: 0.8888;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-one,
+.main-content-three {
+  flex: 0.25;
+}
+
+.main-content-two {
+  flex: 0.2917;
+}
+
+.main-content-four {
+  flex: 0.2083;
+}
